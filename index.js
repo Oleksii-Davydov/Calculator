@@ -1,16 +1,16 @@
 const mathematicalOperations=prompt("Enter math operations +  -  *  /   " )
-const a =prompt("Enter the first number a");
-const b =prompt("Enter the second number b");
+const numberA =prompt("Enter the first number a");
+const numberB =prompt("Enter the second number b");
 if (mathematicalOperations==="+") {
-    alert(a+'+'+b+'='+(Number(a)+Number(b)))
+    alert(numberA+'+'+b+'='+(Number(numberA)+Number(numberB)))
 }
 else if (mathematicalOperations==="-") {
-    alert(a+'-'+b+'='+(Number(a)-Number(b)))
+    alert(numberA+'-'+numberB+'='+(Number(numberA)-Number(numberB)))
 }
 else if (mathematicalOperations==="*") {
-    alert(a+'*'+b+'='+(Number(a)*Number(b)))
+    alert(numberA+'*'+numberB+'='+(Number(numberA)*Number(numberB)))
 }
 else if (mathematicalOperations==="/") {
-    alert(a+'/'+b+'='+(Number(a)/Number(b)))
+    alert(numberA+'/'+numberB+'='+(Number(numberA)/Number(numberB)))
 }
 
